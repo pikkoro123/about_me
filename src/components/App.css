@@ -1,0 +1,49 @@
+.nav-header {
+  background-color : DimGray;
+  border-style: solid;
+  border-color: #DEB887;
+  
+}
+.nav-header a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.mr-auto1 {
+  color :#FFF8DC;
+}
+.mr-auto1.active {
+  color :black;
+}
+.footer {
+  background-color :#808080;
+  height: 90px;
+  border-style: solid;
+  border-color: #DEB887;
+  position: relative;
+
+}
+.footer > .footer-text {
+  /* margin: 0; */
+    color : #FFF8DC;
+    /* background: yellow; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    /* float: left; */
+}
+.footer > .footer-facebook > a > img {
+  float: right;
+  width: 5%;
+}
+
+.footer > .footer-github > a > img {
+  float: right;
+  width: 5%;
+}
+.footer > .footer-steam > a > img {
+  float: right;
+  width: 5%;
+}
